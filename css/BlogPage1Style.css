@@ -1,0 +1,10 @@
+﻿body {
+    padding-top: 56px;
+}
+
+.img-jumbo {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('../images/blog-header1.jpg');
+    background-size: cover;
+    background-position:top;
+    color: #fff;
+}

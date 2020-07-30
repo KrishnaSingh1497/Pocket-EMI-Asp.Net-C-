@@ -1,0 +1,169 @@
+﻿/*start footer section*/
+section.footer-area {
+    background-color: #232935;
+}
+
+    section.footer-area.section-padding {
+        padding: 70px 0;
+    }
+
+.footer-widget p {
+    color: #9ea5b4;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.footer-title {
+    margin-bottom: 20px;
+}
+
+.mail span {
+    color: #fff;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.mail {
+    color: #24c8a6;
+    font-weight: 400
+}
+
+.pages-widget ul li a {
+    color: #9ea5b4;
+    padding-left: 20px;
+    position: relative;
+    line-height: 35px;
+    transition: .4s
+}
+
+    .pages-widget ul li a:hover {
+        color: #fff
+    }
+
+    .pages-widget ul li a:before {
+        position: absolute;
+        left: 0;
+        content: "\f105";
+        font-family: fontawesome;
+    }
+
+.footer-title h4 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.footer-widget.recent-post ul li a {
+    color: #e5e5e5;
+    font-size: 17px;
+}
+
+    .footer-widget.recent-post ul li a span {
+        color: #9ea5b4;
+        display: block;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+.footer-widget.recent-post ul li {
+    padding-bottom: 15px;
+    margin-bottom: 15px
+}
+
+.footer-widget.recent-post ul li {
+    border-bottom: 1px solid #393f4a;
+}
+
+    .footer-widget.recent-post ul li:last-child {
+        border-bottom: 0;
+    }
+
+.newsletter input {
+    background: transparent;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    padding-left: 10px;
+    color: #a5adbd
+}
+
+.newsletter {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #404755;
+    background: #2e3441;
+    position: relative;
+    border-radius: 4px;
+    color: #fff
+}
+
+    .newsletter label {
+        position: absolute;
+        right: 15px;
+        color: #a5adbd;
+        top: 16px;
+        cursor: pointer;
+    }
+
+    .newsletter input::-webkit-input-placeholder {
+        color: #a5adbd;
+    }
+
+.form-widget .btn.btn-default {
+    height: 50px;
+    background-color: #24c8a6;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .form-widget .btn.btn-default:hover {
+        background: #3a7cdd;
+        color: #fff
+    }
+
+/*end of footer section/*/
+
+
+/*start copyright section*/
+
+.footer-link a {
+    color: #9ea5b4;
+    font-size: 18px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.footer-nave a {
+    color: #9ea5b4;
+    font-size: 18px;
+    margin-left: 9px;
+}
+
+.copy-right-section {
+    padding: 15px 0;
+    background: #232935;
+    border-top: 1px solid #393f4a;
+}
+
+.copyright-text {
+    color: #9ea5b4;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+    .copyright-text p {
+        margin-bottom: 0;
+    }
+
+.btn {
+    white-space: inherit;
+}
+
+
+/*end of copyright section*/
+

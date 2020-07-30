@@ -1,0 +1,145 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Management.master.cs" Inherits="HTML_Management" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <%--Bootstrap CSS--%>
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--Datatables CSS--%>
+    <link href="../datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--fontawesome CSS--%>
+    <link href="../fontawesome/css/all.css" rel="stylesheet" />
+
+    <%--Jquery--%>
+    <script src="../Bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+     <%--Popper js--%>
+    <script src="../Bootstrap/js/popper.min.js"></script>
+     <%--Bootstrap js--%>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+
+    <%--Datatables js--%>
+    <script src="../datatables/js/jquery.dataTables.min.js"></script>
+
+     <%--CustomeStyleSheet css--%>
+    <link href="../css/CustomStyleSheet.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="#">
+         <img src="../images/logoimg.png" height="45" width="45" />POCKET EMI</a>
+     <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+         aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+     </button>
+     <div class="collapse navbar-collapse" id="collapsibleNavId">
+
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <%-- <li class="nav-item active">
+                 <asp:LinkButton class="nav-link" ID="LinkButton1" runat="server" href="HomePage.aspx" >Home</asp:LinkButton>
+             </li>
+             <li class="nav-item active">
+                 <asp:LinkButton class="nav-link" ID="LinkButton2" runat="server" href="ContactUs.aspx" >Contact Us</asp:LinkButton>
+             </li>
+             <li class="nav-item active">
+                 <asp:LinkButton class="nav-link" ID="LinkButton3" runat="server" href="About.aspx">Terms</asp:LinkButton>
+             </li>--%>
+         </ul>
+
+          <ul class="navbar-nav">
+             
+
+              <!--Admin Side-->
+              <li>
+                 <asp:LinkButton class="nav-link" ID="LinkButton9" runat="server" href="AdminMember.aspx" >Member</asp:LinkButton>
+             </li>
+             <li>
+                 <asp:LinkButton class="nav-link" ID="LinkButton10" runat="server" href="AdminAgent.aspx" >Agent</asp:LinkButton>
+             </li>
+             <li>
+                 <asp:LinkButton class="nav-link" ID="LinkButton11" runat="server" href="AdminBank.aspx">Bank</asp:LinkButton>
+             </li>
+               <li>
+                 <asp:LinkButton class="nav-link" ID="LinkButton12" runat="server" href="AdminLoan.aspx">Loan</asp:LinkButton>
+             </li>                  
+              <li>
+                  <asp:LinkButton class="nav-link" ID="LinkButton14" runat="server" href="AdminArticle.aspx">Article</asp:LinkButton>
+              </li>
+              <li>
+                  <asp:LinkButton class="nav-link" ID="LinkButton15" runat="server" href="AdminBlog.aspx">Blogs</asp:LinkButton>
+              </li>
+
+              <!--Agent side-->
+                           <li>
+                 <asp:LinkButton class="nav-link" ID="LinkButton16" runat="server" href="AgentMember.aspx" Visible="False">Member</asp:LinkButton>
+             </li>
+             <li>
+                 <asp:LinkButton class="nav-link" ID="LinkButton17" runat="server" href="AgentBank.aspx" Visible="False">Bank</asp:LinkButton>
+             </li>
+             <li>
+                 <asp:LinkButton class="nav-link" ID="LinkButton18" runat="server" href="AgentLoan.aspx" Visible="False">Loan</asp:LinkButton>
+             </li>
+              <li>
+                  <asp:LinkButton class="nav-link" ID="LinkButton20" runat="server" href="AgentArticle.aspx" Visible="False">Article</asp:LinkButton>
+              </li>                   
+              <li>
+                  <asp:LinkButton class="nav-link" ID="LinkButton21" runat="server" href="AgentBlog.aspx" Visible="False">Blogs</asp:LinkButton>
+              </li> 
+              <li class="nav-item">
+                 <asp:LinkButton class="nav-link" ID="LinkButton22" runat="server" Visible="False" href="AgentLoanDoc.aspx">LoanDoc</asp:LinkButton>
+             </li>
+              <li class="nav-item active">
+                 <asp:LinkButton class="nav-link" ID="LinkButton7" runat="server" href="MemberLogin.aspx">Login</asp:LinkButton>
+             </li>
+              <li class="nav-item active">
+                <asp:LinkButton class="nav-link" ID="LinkButton23" runat="server" Visible="False" OnClick="LinkButton23_Click">Logout</asp:LinkButton>
+              </li>
+              <!--Common-->
+             <li class="nav-item active">
+                 <asp:LinkButton class="nav-link" ID="LinkButton8" runat="server" Visible="False">Hello User</asp:LinkButton>
+             </li>
+
+         </ul>
+     </div>
+ </nav>
+
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+        
+        <%-- Footer Section--%>
+        <footer>
+            <div id="footer1" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p>
+                             &nbsp;
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="footer2" class="container-fluid">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-sm-12 text-center">
+                        <p style="color:whitesmoke">&copy All Rights Reserved.
+                            <a class="footerlinks" href="#" target="_blank">Krishna Singh</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,70 @@
+﻿
+
+
+/*Jumbotrom*/
+
+.img-jumbo {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url('../images/contact.jpg');
+    background-size: cover;
+    color: #fff;
+}
+
+/*Contact section*/
+
+.single-get-touch input {
+    width: 100%;
+    height: 50px;
+    border: 1px solid #e9e9e9;
+    padding-left: 10px;
+    border-radius: 4px;
+}
+
+.single-get-touch {
+    margin-bottom: 10px;
+}
+
+.list-input div:last-child .single-get-touch {
+    margin-bottom: 0
+}
+
+.single-get-touch textarea {
+    width: 100%;
+    height: 190px;
+    padding: 10px;
+    border: 1px solid #e9e9e9;
+}
+
+.mr0 {
+    padding-right: 0 !important
+}
+
+.get-in-touch h2 {
+    font-size: 40px;
+    color: #232323;
+    font-weight: 700;
+}
+
+.get-in-touch {
+    margin-bottom: 30px;
+}
+
+    .get-in-touch p {
+        color: #666666;
+        font-size: 17px;
+    }
+
+.single-contact-info .icon {
+    float: left;
+    width: 30px;
+    margin-right: 20px;
+    margin-top: 7px;
+}
+
+.single-contact-info .content {
+    padding-left: 50px;
+}
+
+.contact-us-padding hr {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}

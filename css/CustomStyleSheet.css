@@ -1,0 +1,15 @@
+﻿body {
+}
+
+.footerlinks {
+    color: #fff;
+    text-decoration: none !important;
+}
+
+#footer1 {
+    background: #762b00;
+}
+
+#footer2 {
+    background: #531f00;
+}
